@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/welcome"
+    android:focusableInTouchMode="true"
+    android:orientation="vertical"
+    android:weightSum="12"
+    tools:context="com.aroner.encrypted_notes.Activities.WelcomePage">
+
+    <ImageView
+        android:id="@+id/ivLogo"
+        android:layout_width="match_parent"
+        android:layout_height="75dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="5dp"
+        android:src="@drawable/no_backgrond_logo" />
+
+    <TextView
+        android:id="@+id/tvName1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/ivLogo"
+        android:layout_marginTop="10dp"
+        android:gravity="center"
+        android:text="Welcome to"
+        android:textColor="@color/colorWhite"
+        android:textSize="@dimen/font_size_medium"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/tvName2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tvName1"
+        android:gravity="center"
+        android:text="ENCRYPTED NOTES"
+        android:textColor="@color/colorWhite"
+        android:textSize="@dimen/font_size_medium"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/tvTitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tvName2"
+        android:layout_marginLeft="40dp"
+        android:layout_marginRight="40dp"
+        android:background="@color/colorWhite"
+        android:gravity="center"
+        android:text="TAP WITH YOUR FINGER IN THE BOX TO GENERATE A RANDOM ENCRYPTION CODE!"
+        android:textColor="@color/colorWhite"
+        android:textSize="@dimen/font_size_small"
+        android:textStyle="bold" />
+
+    <LinearLayout
+        android:id="@+id/llKey"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tvTitle"
+        android:layout_marginTop="5dp"
+        android:orientation="horizontal"
+        android:weightSum="1">
+
+        <EditText
+            android:id="@+id/etKey"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginLeft="40dp"
+            android:layout_marginRight="40dp"
+            android:layout_weight="1"
+            android:backgroundTint="@color/colorWhite"
+            android:gravity="center"
+            android:hint="Key Here"
+            android:inputType="textPassword"
+            android:textColor="@color/colorWhite"
+            android:textColorHint="@color/colorWhite"
+            android:textSize="@dimen/font_size_small"
+            android:textStyle="bold"
+            app:backgroundTint="@color/colorWhite" />
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/ivNext"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_gravity="right"
+        android:layout_marginRight="10dp"
+        android:gravity="right"
+        android:padding="5dp"
+        android:src="@drawable/arrow_it_is_white"
+        android:text="Next"
+        android:textColor="@color/colorWhite"
+        android:textSize="20dp"
+        android:textStyle="bold" />
+
+    <GridView
+        android:id="@+id/gvText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@id/ivNext"
+        android:layout_below="@id/llKey"
+        android:layout_marginLeft="40dp"
+        android:layout_marginRight="40dp"
+        android:layout_marginTop="10dp"
+        android:background="@color/colorWhite"
+        android:numColumns="13"></GridView>
+
+</RelativeLayout>

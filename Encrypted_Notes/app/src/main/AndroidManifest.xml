@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.aroner.encrypted_notes">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.GET_ACCOUNTS" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/logo"
+        android:label="@string/app_name"
+        android:roundIcon="@drawable/logo"
+        android:supportsRtl="true"
+        android:largeHeap="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".Activities.WelcomePage">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".Activities.Home_Page"
+            android:label="@string/title_activity_home__page"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Activities.All_Notes_Page"
+            android:label="@string/title_activity_all__notes__page"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Activities.Settings_Page"
+            android:label="@string/title_activity_settings__page"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Activities.SaveAndBackOn_Page"
+            android:label="@string/title_activity_save_and_back_on__page"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Activities.Tags_Page"
+            android:label="@string/title_activity_tags__page"
+            android:theme="@style/AppTheme.NoActionBar">
+
+        </activity>
+        <activity android:name=".Activities.NewNote"
+            android:theme="@style/AppTheme.NoActionBar"/>
+    </application>
+
+</manifest>

@@ -1,0 +1,302 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:weightSum="15"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.aroner.encrypted_notes.Activities.Settings_Page"
+    tools:showIn="@layout/app_bar_settings__page">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="2"
+        android:layout_marginTop="5dp"
+        android:orientation="horizontal"
+        android:weightSum="1">
+
+        <!--<TextView-->
+            <!--android:id="@+id/Version1"-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="0dp"-->
+            <!--android:layout_marginBottom="10dp"-->
+            <!--android:layout_marginLeft="15dp"-->
+            <!--android:layout_marginTop="5dp"-->
+            <!--android:layout_weight="1"-->
+            <!--android:text="Encrypted Notes Version 0.0.1"-->
+            <!--android:textColor="@color/colorBlack"-->
+            <!--android:textSize="@dimen/font_size_small" />-->
+
+
+
+        <TextView
+            android:id="@+id/tvtext"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="0dp"
+            android:layout_weight="0.7"
+
+            android:text="Please donate so that we can improve the app! "
+            android:textColor="@color/colorBlack"
+            android:textSize="@dimen/font_size_small" />
+
+        <ImageView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="2dp"
+            android:layout_weight="0.3"
+            android:padding="1dp"
+            android:layout_marginTop="10dp"
+            android:src="@drawable/heart" />
+
+    </LinearLayout>
+
+
+    <TextView
+        android:id="@+id/tvUrl"
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:layout_marginBottom="15dp"
+        android:layout_marginLeft="15dp"
+        android:layout_weight="1"
+        android:text="www.paypal.me/GoodWorld"
+        android:textColor="@color/colorBlack"
+        android:textSize="@dimen/font_size_small"
+        android:textStyle="bold" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_weight="0.05"
+        android:background="@color/colorPrimary" />
+
+
+
+
+    <TextView
+        android:id="@+id/tvFontSize"
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="5dp"
+        android:layout_weight="1"
+        android:text="Font Size"
+        android:textColor="@color/colorBlack"
+        android:textSize="@dimen/font_size_medium"
+        android:textStyle="bold" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:layout_marginBottom="10dp"
+
+        android:orientation="horizontal"
+        android:weightSum="9">
+
+        <!--<TextView-->
+            <!--android:id="@+id/tvFontSize11"-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content"-->
+
+            <!--android:layout_marginLeft="15dp"-->
+            <!--android:layout_marginTop="5dp"-->
+            <!--android:layout_weight="0.7"-->
+            <!--android:text="  12"-->
+            <!--android:textColor="@color/colorBlack"-->
+            <!--android:textSize="14dp" />-->
+
+
+
+       <!---->
+
+        <!--<TextView-->
+            <!--android:id="@+id/tvComma1"-->
+            <!--android:layout_width="0dp"-->
+            <!--android:layout_height="wrap_content"-->
+
+            <!--android:layout_marginLeft="15dp"-->
+            <!--android:layout_marginTop="5dp"-->
+            <!--android:layout_weight="0.2"-->
+            <!--android:text=","-->
+            <!--android:textColor="@color/colorBlack"-->
+            <!--android:textSize="@dimen/font_size_small" />-->
+
+
+        <TextView
+            android:id="@+id/tvFontSize2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:layout_gravity="center"
+            android:layout_marginLeft="15dp"
+
+            android:layout_weight="0.7"
+            android:text="14"
+            android:textColor="@color/colorBlack"
+            android:textSize="14dp" />
+
+        <TextView
+            android:id="@+id/tvComma2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:layout_marginLeft="15dp"
+            android:layout_weight="0.2"
+            android:text=","
+            android:textColor="@color/colorBlack"
+            android:textSize="@dimen/font_size_small" />
+
+
+        <TextView
+            android:id="@+id/tvFontSize3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            android:layout_marginLeft="15dp"
+
+            android:layout_weight="0.7"
+            android:text="16"
+            android:gravity="center"
+            android:layout_gravity="center"
+            android:textColor="@color/colorBlack"
+            android:textSize="16dp" />
+
+        <TextView
+            android:id="@+id/tvComma3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            android:layout_marginLeft="15dp"
+
+            android:layout_marginTop="5dp"
+            android:layout_weight="0.2"
+            android:text=","
+            android:textColor="@color/colorBlack"
+            android:textSize="@dimen/font_size_small" />
+
+
+        <TextView
+            android:id="@+id/tvFontSize4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:layout_gravity="center"
+            android:layout_marginLeft="15dp"
+
+            android:layout_weight="0.7"
+            android:text="18"
+            android:textColor="@color/colorBlack"
+            android:textSize="18dp" />
+
+        <TextView
+            android:id="@+id/tvComma4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            android:layout_marginLeft="15dp"
+
+            android:layout_marginTop="5dp"
+            android:layout_weight="0.2"
+            android:text=","
+            android:textColor="@color/colorBlack"
+            android:textSize="@dimen/font_size_small" />
+
+        <TextView
+            android:id="@+id/tvFontSize5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:layout_gravity="center"
+            android:layout_marginLeft="15dp"
+
+            android:layout_weight="0.7"
+            android:text="20"
+            android:textColor="@color/colorBlack"
+            android:textSize="20dp" />
+
+
+    </LinearLayout>
+
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_weight="0.05"
+        android:background="@color/colorPrimary" />
+
+
+    <TextView
+        android:id="@+id/tvVersion"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="5dp"
+        android:layout_weight="1"
+        android:text="Version"
+        android:textColor="@color/colorBlack"
+
+        android:textSize="@dimen/font_size_medium"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/Version1"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_marginBottom="10dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="5dp"
+        android:layout_weight="1"
+        android:text="Encrypted Notes Version 0.0.1"
+        android:textColor="@color/colorBlack"
+        android:textSize="@dimen/font_size_small" />
+
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_weight="0.05"
+        android:background="@color/colorPrimary" />
+
+
+
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_marginTop="10dp"
+        android:layout_weight="3.5"
+        android:src="@drawable/logo" />
+
+
+
+    <Button
+        android:id="@+id/btnSync"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:layout_marginLeft="60dp"
+        android:layout_marginRight="60dp"
+        android:layout_marginTop="20dp"
+        android:layout_weight="0.2"
+        android:background="@drawable/background"
+        android:text="Sync"
+        android:textColor="@color/colorWhite"
+        android:textSize="@dimen/font_size_small" />
+
+
+
+</LinearLayout>
+
+

@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!--<item-->
+        <!--android:id="@+id/nav_Tags"-->
+
+
+
+        <!--android:title="Tags" />-->
+
+    <!--<group android:checkableBehavior="single">-->
+
+
+        <!--<item-->
+            <!--android:id="@+id/nav_Ideas"-->
+            <!--android:icon="@drawable/arrow_it_is_white"-->
+            <!--android:title="Ideas" />-->
+        <!--<item-->
+            <!--android:id="@+id/nav_Shopping"-->
+            <!--android:icon="@drawable/arrow_it_is_white"-->
+            <!--android:title="Shopping" />-->
+        <!--<item-->
+            <!--android:id="@+id/nav_Homeworks"-->
+            <!--android:icon="@drawable/arrow_it_is_white"-->
+            <!--android:title="Homeworks" />-->
+        <!--<item-->
+            <!--android:id="@+id/nav_Art"-->
+            <!--android:icon="@drawable/arrow_it_is_white"-->
+            <!--android:title="Art" />-->
+
+        <!--<item-->
+            <!--android:id="@+id/nav_Books"-->
+            <!--android:icon="@drawable/arrow_it_is_white"-->
+            <!--android:title="Books" />-->
+    <!--</group>-->
+
+    <!--&lt;!&ndash;<item android:title="Communicate">&ndash;&gt;-->
+        <!--&lt;!&ndash;<menu>&ndash;&gt;-->
+            <!--&lt;!&ndash;<item&ndash;&gt;-->
+                <!--&lt;!&ndash;android:id="@+id/nav_share"&ndash;&gt;-->
+                <!--&lt;!&ndash;android:icon="@drawable/ic_menu_share"&ndash;&gt;-->
+                <!--&lt;!&ndash;android:title="Share" />&ndash;&gt;-->
+            <!--&lt;!&ndash;<item&ndash;&gt;-->
+                <!--&lt;!&ndash;android:id="@+id/nav_send"&ndash;&gt;-->
+                <!--&lt;!&ndash;android:icon="@drawable/ic_menu_send"&ndash;&gt;-->
+                <!--&lt;!&ndash;android:title="Send" />&ndash;&gt;-->
+        <!--&lt;!&ndash;</menu>&ndash;&gt;-->
+    <!--&lt;!&ndash;</item>&ndash;&gt;-->
+
+</menu>

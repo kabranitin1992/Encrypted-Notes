@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.aroner.encrypted_notes.Activities.All_Notes_Page">
+
+    <android.support.design.widget.AppBarLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:theme="@style/AppTheme.AppBarOverlay">
+
+        <android.support.v7.widget.Toolbar
+            android:id="@+id/toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            android:background="@drawable/background"
+            app:popupTheme="@style/AppTheme.PopupOverlay">
+
+            <TextView
+                android:id="@+id/toolbar_title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="All Notes"
+                android:textSize="25dp"
+                android:textStyle="bold" />
+        </android.support.v7.widget.Toolbar>
+
+    </android.support.design.widget.AppBarLayout>
+
+    <include layout="@layout/content_all__notes__page" />
+
+    <!--<android.support.design.widget.FloatingActionButton-->
+        <!--android:id="@+id/fbSetting"-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:layout_gravity="bottom|end"-->
+        <!--android:layout_marginBottom="80dp"-->
+        <!--android:layout_marginRight="@dimen/fab_margin"-->
+        <!--android:padding="0dp"-->
+        <!--app:backgroundTint="@null"-->
+        <!--android:background="@null"-->
+        <!--tools:layout_editor_absoluteX="291dp" />-->
+
+    <!--android:src="@drawable/gear"-->
+
+
+    <!--<android.support.design.widget.FloatingActionButton-->
+        <!--android:id="@+id/add_a_note"-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:layout_gravity="bottom|end"-->
+        <!--android:layout_margin="@dimen/fab_margin"-->
+        <!--android:padding="0dp"-->
+        <!--android:background="@null"-->
+        <!--app:backgroundTint="@null"/>-->
+        <!--android:src="@drawable/addnote" />-->
+
+</android.support.design.widget.CoordinatorLayout>

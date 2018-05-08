@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:focusableInTouchMode="true"
+    android:orientation="vertical"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.aroner.encrypted_notes.Activities.All_Notes_Page"
+    tools:showIn="@layout/app_bar_all__notes__page">
+
+
+    <ListView
+        android:id="@+id/lvAll_notes"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="5dp"
+        android:divider="@color/colorPrimary"></ListView>
+
+
+
+
+    <ImageView
+        android:id="@+id/ivSetting"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_gravity="bottom|right"
+        android:layout_marginBottom="70dp"
+        android:layout_marginRight="5dp"
+        android:background="@null"
+        android:gravity="right"
+        android:src="@drawable/gear" />
+
+    <ImageView
+        android:id="@+id/ivAdd"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_gravity="bottom|right"
+        android:layout_marginBottom="10dp"
+        android:layout_marginRight="5dp"
+        android:background="@null"
+        android:gravity="right"
+        android:src="@drawable/addnote" />
+</FrameLayout>

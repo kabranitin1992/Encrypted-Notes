@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v4.widget.DrawerLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mDrawerLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.aroner.encrypted_notes.Activities.Tags_Page"
+    tools:showIn="@layout/app_bar_tags__page">
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:focusableInTouchMode="true"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:weightSum="1">
+
+                <EditText
+                    android:id="@+id/etAddTag"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_weight="0.8"
+                    android:inputType="textCapWords"
+                    android:backgroundTint="@color/colorWhite"
+                    android:hint="Add a new tag here!"
+                    android:lines="1"
+                    android:minLines="1"
+                    android:maxEms="1"
+                    android:textColor="@color/colorDarkGrass"
+                    android:textColorHint="@color/colorDarkGrass"
+                    android:textSize="@dimen/font_size_medium"
+                    android:textStyle="bold" />
+
+
+                <Button
+                    android:id="@+id/btnAdd"
+                    android:layout_width="20dp"
+                    android:layout_height="35dp"
+                    android:layout_marginRight="2dp"
+                    android:layout_weight="0.2"
+                    android:background="@drawable/background"
+                    android:text="Save"
+                    android:textColor="@color/colorWhite"
+                    android:textSize="@dimen/font_size_small" />
+
+
+                <!--<Button-->
+                <!--android:id="@+id/btnSave"-->
+                <!--android:layout_width="20dp"-->
+                <!--android:layout_height="35dp"-->
+                <!--android:layout_marginRight="2dp"-->
+                <!--android:layout_weight="0.2"-->
+                <!--android:background="@drawable/background"-->
+                <!--android:text="Save"-->
+                <!--android:textColor="@color/colorWhite"-->
+                <!--android:textSize="16dp" />-->
+
+            </LinearLayout>
+
+
+            <TextView
+                android:id="@+id/tvTitle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5sp"
+                android:padding="10dp"
+                android:text="Previous Tags:"
+                android:textColor="@color/colorBlack"
+                android:textSize="21dp"
+                android:textStyle="bold" />
+
+            <ListView
+                android:id="@+id/lvTags"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+             ></ListView>
+
+        </LinearLayout>
+    </FrameLayout>
+
+
+    <!--<TextView-->
+    <!--android:id="@+id/tvIdeas"-->
+    <!--android:layout_width="match_parent"-->
+    <!--android:layout_height="wrap_content"-->
+    <!--android:textSize="18sp"-->
+    <!--android:text="Ideas"-->
+    <!--android:layout_marginTop="5dp"-->
+    <!--android:layout_marginLeft="15dp"-->
+    <!--android:textColor="@color/colorBlack"/>-->
+
+    <!--<TextView-->
+    <!--android:id="@+id/tvShopping"-->
+    <!--android:layout_width="match_parent"-->
+    <!--android:layout_height="wrap_content"-->
+    <!--android:textSize="18sp"-->
+    <!--android:layout_marginTop="5dp"-->
+    <!--android:text="Shopping"-->
+    <!--android:layout_marginLeft="15dp"-->
+    <!--android:textColor="@color/colorBlack"/>-->
+
+    <!--<TextView-->
+    <!--android:id="@+id/tvHw"-->
+    <!--android:layout_width="match_parent"-->
+    <!--android:layout_height="wrap_content"-->
+    <!--android:textSize="18sp"-->
+    <!--android:text="Homeworks"-->
+    <!--android:layout_marginLeft="15dp"-->
+    <!--android:layout_marginTop="5dp"-->
+    <!--android:textColor="@color/colorBlack"/>-->
+
+    <!--<TextView-->
+    <!--android:id="@+id/tvArt"-->
+    <!--android:layout_width="match_parent"-->
+    <!--android:layout_height="wrap_content"-->
+    <!--android:textSize="18sp"-->
+    <!--android:layout_marginTop="5dp"-->
+    <!--android:text="Art"-->
+    <!--android:layout_marginLeft="15dp"-->
+    <!--android:textColor="@color/colorBlack"/>-->
+
+    <!--<TextView-->
+    <!--android:id="@+id/tvBooks"-->
+    <!--android:layout_width="match_parent"-->
+    <!--android:layout_height="wrap_content"-->
+    <!--android:layout_marginLeft="15dp"-->
+    <!--android:layout_marginTop="5dp"-->
+    <!--android:text="Books"-->
+    <!--android:textColor="@color/colorBlack"-->
+    <!--android:textSize="18sp" />-->
+
+</android.support.v4.widget.DrawerLayout>
